@@ -23,7 +23,6 @@ const ConnectionContainer = (props:{data:Connection}) => {
 
 	async function toggleConContainer(){
 		try{
-			console.log('toggleConContainer called')
 			closeRouteModal()
 			setState((prev) => !prev)
 		}catch(e){
@@ -34,10 +33,6 @@ const ConnectionContainer = (props:{data:Connection}) => {
 	useEffect(() => {
 		ignoreWalking()
 	},[props])
-
-	useEffect(() => {
-		console.log('cardId',cardId)
-	},[cardId])
 
 	return (
 		<>

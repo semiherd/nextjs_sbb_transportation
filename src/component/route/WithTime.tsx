@@ -36,7 +36,7 @@ const withTime= <TProps extends RouteTimeCard>(
 						getHourMinute(data.departure),
 						getHourMinute(type==='leg'? data.exit.arrival :data.arrival),
 					])
-					console.log('getHourMinute response',type,':',data,response)
+					
 					const departParam:LabelValue= type==='leg'
 						? { label: data.sbb_name, value: response[0] }
 						: { label: data.from, value: response[0] }
