@@ -1,0 +1,9 @@
+.search-container{
+	background-color: tomato;
+	border-radius: 5px;
+	border-width: 1;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	width: 100vw;
+	height: 15vh;
+}

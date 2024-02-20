@@ -1,0 +1,30 @@
+/*mobile*/
+@media screen and (min-width:300px){	
+	body{
+		font-size: 20px;
+	}
+	.route-list{
+		display: flex;
+		flex-direction: column;
+		transform: translateX(11vw);
+		width: 75vw;
+		background-color: transparent;
+		overflow: hidden;
+	}
+}
+
+/*tablet*/
+@media screen and (min-width:760px){
+	.route-list{
+		transform: translateX(20vw);
+		width: 60vw;
+	}
+}
+
+/*laptop*/
+@media screen and (min-width:1100px){	
+	.route-list{
+		transform: translateX(20vw);
+		width: 60vw;
+	}
+}	

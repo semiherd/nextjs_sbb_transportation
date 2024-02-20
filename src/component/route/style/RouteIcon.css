@@ -1,0 +1,15 @@
+.active{
+	background-color: lightblue;
+	border-radius: 50%;
+	border: 0.5px solid lightblue;
+	align-self: center;
+	padding: 10%;
+}
+.inactive{
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+	align-self: center;
+	padding: 10%;
+}
+

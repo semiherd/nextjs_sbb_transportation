@@ -1,0 +1,9 @@
+.noresponse-container{
+		width: 50vw;
+		background-color: tomato;
+		overflow: hidden;
+		align-self:center;
+		text-align: center;
+		color: white;
+		border-radius: 20px;
+}

@@ -1,0 +1,31 @@
+/*mobile*/
+@media screen and (min-width:300px){	
+	body{
+		font-size: 20px;
+	}
+	.route-container{
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		margin: 10vh 0;
+		background-color: transparent;
+	}
+	.route-container>h1 {
+		width: 50vw;
+		align-self: center;
+		background-color:slateblue;
+		color: whitesmoke;
+		text-align: center;
+		border-radius: 10px;
+	}
+}
+
+/*tablet*/
+@media screen and (min-width:760px){
+
+}
+
+/*laptop*/
+@media screen and (min-width:1100px){	
+	
+}	

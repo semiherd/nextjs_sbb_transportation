@@ -1,0 +1,46 @@
+@keyframes transition-down{
+	0%{
+		transform: translate(2%,-2vh);
+		height: 5vh;
+		opacity:0;
+	}
+	50%{
+		transform: translate(2%,0vh);
+		height: 15vh;
+		opacity: 0.2
+	}
+	100%{
+		transform: translate(2%,0vh);
+		height: 30vh;
+		opacity: 1;
+	}
+}
+.invisible{
+	display: none
+}
+.no-data{
+	display: flex;
+	justify-content: center;
+	background-color: teal;
+	color: whitesmoke;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 0;
+	margin: 0;
+}
+.option-list{
+	border: none;
+	background-color: white;
+	overflow:hidden;
+	border-radius: 15px;
+	width: 30vw;
+	height: 30vh;
+	transform: translateX(2%)
+}
+.scrollable-vertical{
+	overflow-y: scroll;
+}
+	
+.option-list-animation{
+	animation: transition-down linear 1s;
+}

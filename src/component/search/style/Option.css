@@ -1,0 +1,29 @@
+.option{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: auto;
+	color: teal;
+	border-bottom: 0.55px solid teal;
+}
+.option h1{
+	margin: 1vh 1vw;
+	padding: 1vh 1vw;		
+	font-size: 1.25em;
+	width: auto;
+	align-self: center;
+	text-align: center;
+}
+@media screen and (min-width:600px){
+
+}
+@media screen and (min-width:800px){
+	.option-list{
+		width: 30vw;
+	}
+}
+@media screen and (min-width:960px){
+	.option-list{
+		width: 25vw;
+	}
+}

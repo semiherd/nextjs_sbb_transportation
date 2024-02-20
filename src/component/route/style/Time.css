@@ -1,0 +1,79 @@
+/*mobile*/
+@media screen and (min-width:300px){	
+	.time{
+		font-size: 3vw;
+		border: solid 0.5px teal;
+		border-radius: 5px;
+		padding: 8%;
+		margin: 1%;
+		text-align: center;
+		align-self: center;
+		transform: translateX(5vw);
+	}	
+	.duration{
+		font-size: 2vw;
+		width: 5vw;
+		border-bottom: solid 1px lightgray;
+		padding: 3%;
+		margin: 5%;
+		text-align: center;
+		align-self: center;
+		transform: translateX(5vw);
+	}
+	.label{
+		height: auto;
+		width: 25vw;
+		font-size: 1.75vw;
+		background-color: #A894F9;
+		color: white;
+		border-radius: 5px;
+		padding: 3%;
+		margin: 5%;
+		align-self: center;
+		text-align: center;
+		transform: translateX(5vw);
+	}
+}
+
+/*tablet*/
+@media screen and (min-width:760px){
+	.time{
+		font-size: 2vw;
+		padding: 8%;
+		margin: 3%;
+		transform: translateX(0vw);
+	}	
+	.duration{
+		font-size: 1.5vw;
+		padding: 2%;
+		margin: 2% 1%;
+		transform: translateX(0vw);
+	}
+	.label{
+		width: 15vw;
+		font-size: 1.5vw;
+		padding: 3%;
+		margin: 1%;
+		transform: translateX(0vw);
+	}
+}
+
+/*laptop*/
+@media screen and (min-width:1100px){
+	.time{
+		font-size: 1.5vw;
+		padding: 8%;
+		margin: 3% 1%;
+	}	
+	.duration{
+		font-size: 1.25vw;
+		padding: 2%;
+		margin: 2% 0%;
+	}
+	.label{
+		width: 15vw;
+		font-size: 1.25vw;
+		padding: 2%;
+		margin: 4% 10%;
+	}
+}

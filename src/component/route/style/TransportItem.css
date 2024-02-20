@@ -1,0 +1,13 @@
+
+/*mobile*/
+@media screen and (min-width:300px){
+	.transport-item{
+		border: solid 2px teal;
+		border-radius: 10px;
+		padding: 0 1%;
+		margin: 1% 0;
+		background-color: #EEF3F5;
+	}	
+}
+
+

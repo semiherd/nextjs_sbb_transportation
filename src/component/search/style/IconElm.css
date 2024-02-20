@@ -1,0 +1,9 @@
+.icon-item{
+	background-color: tranparent;
+	border-radius: 50px;
+	overflow: hidden;
+	background-color: white;
+	border: 5px solid lightgray;
+	align-self: center;
+	transform: translate(	0,-10%);
+}
