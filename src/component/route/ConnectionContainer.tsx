@@ -33,7 +33,7 @@ const ConnectionContainer = (props:{data:Connection}) => {
 
 	useEffect(() => {
 		ignoreWalking()
-	},[])
+	},[props])
 
 	useEffect(() => {
 		console.log('cardId',cardId)
