@@ -1,7 +1,7 @@
 'use client'
 
 import { OptionProps,OptionType, } from './type.search'
-import { Station } from './context.tsx/Search/type.search'
+import { Station } from './context/Search/type.search'
 
 import './style/Option.css'
 

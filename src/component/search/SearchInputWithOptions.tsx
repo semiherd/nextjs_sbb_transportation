@@ -1,10 +1,10 @@
 'use client'
 
 import React,{ useState,useMemo,useEffect } from "react"
-import { useSearchDispatch } from 'src/component/search/context.tsx/Search/SearchContext'
+import { useSearchDispatch } from 'src/component/search/context/Search/SearchContext'
 import { InputId,OptionType } from './type.search'
 import { Option } from './Option'
-import { Station } from './context.tsx/Search/type.search'
+import { Station } from './context/Search/type.search'
 import { useSearch } from "./hook/UseSearch"
 import './style/OptionList.css'
 

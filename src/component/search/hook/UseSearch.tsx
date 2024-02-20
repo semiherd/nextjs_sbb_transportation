@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect,useState } from 'react' 
-import { useSearchDispatch, useSearchState } from '../context.tsx/Search/SearchContext'
-import { Location, Station } from "../context.tsx/Search/type.search";
+import { useSearchDispatch, useSearchState } from '../context/Search/SearchContext'
+import { Location, Station } from "../context/Search/type.search";
 import { OptionsType,OptionType,InputValType,InputId } from '../type.search'
 
 function useSearch(){

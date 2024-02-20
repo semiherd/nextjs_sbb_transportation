@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react' 
-import { useSearchState } from '../../search/context.tsx/Search/SearchContext'
+import { useSearchState } from '../../search/context/Search/SearchContext'
 import { useRouteDispatch } from 'src/component/route/context/Route/RouteContext';
 import { Route_SearchApi } from 'src/component/route/context/Route/type.route'
 
