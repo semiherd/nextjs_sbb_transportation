@@ -46,7 +46,7 @@ const Connection = (props:Leg) => {
 
 	useEffect(() => {
 		handleLegs()
-	},[])
+	},[props])
 
 	return (
 		<Col alignOption="center">
